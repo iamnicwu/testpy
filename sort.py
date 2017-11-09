@@ -8,7 +8,7 @@ def bubble_sort(collection):
     :return: the same collection ordered by ascending
     Examples:
     >>> bubble_sort([0, 5, 3, 2, 2])
-    [0, 2, 2, 3, 5]
+    [0, 2, 2, 3, 5] 
     >>> bubble_sort([])
     []
     >>> bubble_sort([-2, -5, -45])
