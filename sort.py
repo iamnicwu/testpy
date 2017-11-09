@@ -19,7 +19,7 @@ def bubble_sort(collection):
         for j in range(i):#range(1, i)
             if collection[j] > collection[j+1]:
                 collection[j], collection[j+1] = collection[j+1], collection[j]
-
+ 
     return collection
 
 
