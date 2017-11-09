@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn import linear_model
-
+ 
 x = np.arange(0, 1, 0.002)
 y = norm.rvs(0, size = 500, scale = 0.1)
 y = y + x ** 2
