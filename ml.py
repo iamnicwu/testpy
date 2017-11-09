@@ -20,7 +20,7 @@ def R2(y_test, y_true): return 1 - ((y_test - y_true) ** 2).sum() / (
 def R22(y_test, y_true): y_mean = np.array(y_true)
 y_mean[:] = y_mean.mean()
 return 1 - rmse(y_test, y_true) / rmse(y_mean, y_true)
-
+ 
 plt.scatter(x, y, s = 5)
 degree = [1, 2, 100]
 y_test = []
