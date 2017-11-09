@@ -12,7 +12,7 @@ def bubble_sort(collection):
     >>> bubble_sort([])
     []
     >>> bubble_sort([-2, -5, -45])
-    [-45, -5, -2]
+    [-45, -5, -2] 
     """
     length = len(collection)
     for i in range(length-1, -1, -1):#range(length-1, -1, -1)
