@@ -36,7 +36,7 @@ for d in degree:
             ('linear', LinearRegression(fit_intercept=False))])
     clf.fit(x[:, np.newaxis], y)
     y_test = clf.predict(x[:, np.newaxis])
-
+ 
     print(clf.named_steps['linear'].coef_)
     print('rmse=%.2f, R2=%.2f, R22=%.2f, clf.score=%.2f' %
         (rmse(y_test, y),
